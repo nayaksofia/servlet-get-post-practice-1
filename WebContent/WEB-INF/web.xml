@@ -21,12 +21,14 @@
   
   <servlet-mapping>
      <servlet-name>GetHandler </servlet-name>
-      <url-pattern>/getHandler</url-pattern>
+     
+     <!-- Add the name of action name mentioned in html file here in <url-pattern> tag -->
+      <url-pattern>/gethandler</url-pattern>
   </servlet-mapping>
   
   <servlet-mapping>
   <servlet-name>  PostHandler </servlet-name>
-  <url-pattern> /postHandler</url-pattern>
+  <url-pattern> /posthandler</url-pattern>
   </servlet-mapping>
   
 </web-app>
